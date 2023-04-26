@@ -1,0 +1,21 @@
+@import '../componentes/variaveis';
+nav{
+    text-align: center;
+    background-color: $cor-terciaria;
+    ul{
+        li{
+            display: inline-block;
+            padding: 35px;
+            
+        }
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight:bold;
+            color: $cor-primaria;
+            &:hover{
+                border-bottom: 2px solid $cor-secundaria;
+            }
+        }
+    }
+}

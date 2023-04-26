@@ -1,0 +1,14 @@
+@import '../componentes/variaveis';
+
+.intro{
+    
+    text-align: center;
+    padding: 50px;
+    h3{ color: $cor-terciaria;
+        font-size: $tamanho-do-texto;
+    }
+    h4{
+        font-size: $tamanho-do-texto / 2;
+        color: $texto-secundario-cor;
+    }
+}

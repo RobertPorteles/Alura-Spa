@@ -1,0 +1,175 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+  background-color: #A75D5D;
+}
+nav ul li {
+  display: inline-block;
+  padding: 35px;
+}
+nav ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFF2CC;
+}
+nav ul a:hover {
+  border-bottom: 2px solid #FFD966;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  background-size: cover;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.inner-banner {
+  padding: 3.5rem;
+  background-color: #FFF2CC;
+  opacity: 1.9;
+  border-radius: 95px;
+}
+.inner-banner h1 {
+  font-size: 3.5rem;
+  color: #A75D5D;
+}
+.inner-banner h2 {
+  font-size: 1.75rem;
+  color: #A75D5D;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards .card {
+  text-align: center;
+  width: 550px;
+  margin-top: 5px;
+}
+.cards .card h5 {
+  font-size: 2.3333333333rem;
+  color: #A75D5D;
+  margin-top: 15px;
+  font-style: bold;
+}
+.cards .card p {
+  font-size: 1.4rem;
+  color: rgb(108, 117, 124);
+  line-height: 1.5rem;
+  margin-top: 7px;
+}
+.cards .img-card {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #FFD966;
+}
+.cards .img-card img {
+  max-width: 100%;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px;
+}
+.intro h3 {
+  color: #A75D5D;
+  font-size: 3.5rem;
+}
+.intro h4 {
+  font-size: 1.75rem;
+  color: rgb(108, 117, 124);
+}
+
+#cupom {
+  background-color: #FFF2CC;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #A75D5D;
+}
+#cupom h2 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+  border: none;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #A75D5D;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 2rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #A75D5D;
+  color: #FFF2CC;
+  letter-spacing: 1px;
+  font-size: 18.4px;
+  font-weight: bold;
+  border: 2px #FFD966;
+  border-radius: 40px;
+  cursor: pointer;
+}
+#cupom button:hover {
+  color: #A75D5D;
+  background-color: #FFD966;
+  border-color: #FFD966;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.4rem;
+  border-top: 2px solid #A75D5D;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #FFF2CC;
+}
+footer i {
+  color: red;
+}
+footer .pedra-flor-conteiner {
+  background-color: white;
+  padding: 0rem;
+  margin-bottom: 1.3rem;
+  border-radius: 5rem;
+}
+footer h3 {
+  font-size: 3.5rem;
+  color: #A75D5D;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+footer h4 {
+  font-size: 2.3333333333rem;
+  color: #A75D5D;
+}
+footer p {
+  font-size: 2.3333333333rem;
+  color: rgb(108, 117, 124);
+  margin: 3rem;
+}/*# sourceMappingURL=style.css.map */

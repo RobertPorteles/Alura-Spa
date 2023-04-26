@@ -1,0 +1,30 @@
+@import '../componentes/variaveis';
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    .card{
+        text-align: center;
+        width: 550px;
+        margin-top: 5px;
+        h5{
+            font-size: $tamanho-do-texto /1.5;
+            color: $cor-terciaria;
+            margin-top: 15px;
+            font-style: bold;
+        }
+        p{
+            font-size: $tamanho-do-texto /2.5;
+            color: $texto-secundario-cor;
+            line-height: 1.5rem;
+            margin-top: 7px;
+        }
+    }
+        .img-card{
+         padding-bottom: 5px;
+         border-bottom: 3px solid $cor-secundaria;
+         img{
+            max-width: 100%;
+         }
+    }
+    
+}
